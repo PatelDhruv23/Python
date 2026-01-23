@@ -1,17 +1,17 @@
 
 #! WAP to check if a number is strong number or not
 
-num = input("Enter Number: ")
+num = int(input("Enter Number: "))
 sum = 0
 
-for i in num:
+for i in str(num):
     fact=1
-    for j in range(int(i),0,-1):
+    digit = int(i)
+    for j in range(digit,0,-1):
         fact = fact * j
     
     sum = sum + fact
 
-print(sum)
 if sum == int(num) :
     print(f"{num} is Strong Number.")
 else:

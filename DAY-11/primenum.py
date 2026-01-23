@@ -13,4 +13,3 @@ for i in s: #12
         out.append(i)
 
 print(f"Prime Numbers: {out}")
-    
