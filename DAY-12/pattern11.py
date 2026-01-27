@@ -130,6 +130,6 @@ for i in range(1,n+1):
             print(chr(start5), end=' ')
             start5 = start5 + 1
         else:
-            print(' ', end=' ')
+            print(f' ', end=' ')
     start5 = ord(char) + i 
     print()
