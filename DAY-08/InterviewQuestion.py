@@ -2,14 +2,30 @@
 #! Given an array nums[], create a new array result[] such that:
 #! result[i] = product of all elements of nums except nums[i]
 #! example: 
-#! Input: nums = [1, 2, 3, 4]
-#! Output: result = [24, 12, 8, 6] 
+#! Input: nums = [11,5,10,2]
+#! Output: result = [100, 220, 110, 550] 
+                    
+#TODO INTERVIEW QUESTION
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 nums = eval(input("Enter list numbers: "))
+#5,11,10,2
 result = []
-product = 1
 
 for i in nums:
+    product = 1
     for j in nums:
         if i == j:
             continue
