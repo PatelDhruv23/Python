@@ -1,5 +1,5 @@
 
-input = 'my name is gadha'
+input = 'my name is dhruv'
 out = ''
 
 for j in range(0,len(input)) :
